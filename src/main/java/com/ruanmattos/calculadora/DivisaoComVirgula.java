@@ -10,23 +10,23 @@ import java.util.Scanner;
  *
  * @author aluno
  */
-public class MultiplicacaoComVirgula {
+public class DivisaoComVirgula {
 
-    public MultiplicacaoComVirgula() {
+    public DivisaoComVirgula() {
         Scanner s = new Scanner(System.in);
-        System.out.println("Bem vindo(a) ao programa que multiplica dois numeros com/sem virgula");
+        System.out.println("Bem vindo(a) ao programa que divide dois numeros com/sem virgula");
         System.out.print("Digite o primeiro valor(COM/SEM VIRGULA): ");
         double valor_um = s.nextDouble();
         s.nextLine();
         System.out.print("Digite o segundo valor(COM/SEM VIRGULA): ");
         double valor_dois = s.nextDouble();
         s.nextLine();
-        double multiplicacao = valor_um * valor_dois;
-        System.out.println("A multiplicacao do primeiro numero com o segundo numero e: " + multiplicacao);
+        double divisao = valor_um / valor_dois;
+        System.out.println("A divisao do primeiro numero com o segundo numero e: " + divisao);
     }
 
     public static void main(String[] args) {
-        new MultiplicacaoComVirgula();
+        new DivisaoComVirgula();
     }
     
 }

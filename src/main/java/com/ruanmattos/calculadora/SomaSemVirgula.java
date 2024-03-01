@@ -14,6 +14,7 @@ public class SomaSemVirgula {
 
     public SomaSemVirgula() {
         Scanner s = new Scanner(System.in);
+        System.out.println("Bem vindo(a) ao programa que soma dois numeros sem virgula");
         System.out.print("Digite o primeiro valor(SEM VIRGULA): ");
         int valor_um = s.nextInt();
         s.nextLine();
