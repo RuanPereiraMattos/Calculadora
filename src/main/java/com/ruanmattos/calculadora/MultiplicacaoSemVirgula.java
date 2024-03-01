@@ -10,23 +10,23 @@ import java.util.Scanner;
  *
  * @author aluno
  */
-public class SubtracaoSemVirgula {
+public class MultiplicacaoSemVirgula {
 
-    public SubtracaoSemVirgula() {
+    public MultiplicacaoSemVirgula() {
         Scanner s = new Scanner(System.in);
-        System.out.println("Bem vindo(a) ao programa que multiplica dois numeros sem virgula");
+        System.out.println("Bem vindo(a) ao programa que multiplica dois numeros com/sem virgula");
         System.out.print("Digite o primeiro valor(SEM VIRGULA): ");
         int valor_um = s.nextInt();
         s.nextLine();
         System.out.print("Digite o segundo valor(SEM VIRGULA): ");
         int valor_dois = s.nextInt();
         s.nextLine();
-        int subtracao = valor_um - valor_dois;
-        System.out.println("A subtracao do primeiro numero com o segundo numero e: " + subtracao);
+        int multiplicacao = valor_um * valor_dois;
+        System.out.println("A multiplicacao do primeiro numero com o segundo numero e: " + multiplicacao);
     }
 
     public static void main(String[] args) {
-        new SubtracaoSemVirgula();
+        new MultiplicacaoSemVirgula();
     }
-
+    
 }
